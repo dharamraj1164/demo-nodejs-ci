@@ -38,6 +38,6 @@ jobs:
       - name: Build Application
         run: npm run build
 
-      - name: Verify Build
-        run: test -f dist/app.js
+      - name: Verify build
+  run: test -f dist/index.js
 
